@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Mediconnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Mediconnect</h1>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button type="button">Search</button>
+            </div>
+            <nav>
+                <!-- <ul>
+                    <li><a href="#about">About Mediconnect</a></li>
+                </ul> -->
+            </nav>
+        </div>
+    </header>
+
+    <section id="options">
+        <div class="container options-container">
+            <div class="option">
+                <button onclick="bookAppointment()">
+                    <div class="button-content">
+                        <div class="image-container">
+                            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_find_doctors.png" alt="Book Appointment" class="button-icon">
+                        </div>
+                        <div class="text-container">
+                            <span>Book Appointment</span>
+                            <p class="subtitle">Confirmed Appointments</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="option">
+                <button onclick="window.location.href='consult.html'">
+                    <div class="button-content">
+                        <div class="image-container">
+                            <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="Instant Video Consult" class="button-icon">
+                        </div>
+                        <div class="text-container">
+                            <span>Instant Video Consult</span>
+                            <p class="subtitle">Connect in 60 sec</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="container">
+            <h2>About Mediconnect</h2>
+            <p>Mediconnect addresses the critical challenges faced by local doctors when treating complex health conditions without immediate access to specialist advice...</p>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
